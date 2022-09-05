@@ -1,0 +1,827 @@
+@import url('https://rsms.me/inter/inter.css');
+
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-color: #000000;
+	font-family: 'Inter', sans-serif;
+}
+
+nav{
+	width: 100vw;
+	display: flex;
+	position: fixed;
+	background-color: black;
+	margin-top: -5vh;
+}
+
+nav p{
+	color: white;
+	margin-left: 3vh;
+	margin-top: 3vh;
+	font-size: 1em;
+	font-weight: bold;
+	font-family: 'Inter', sans-serif;
+}
+
+nav ul{
+	width: 92vw;
+	text-align: right;
+	margin-top: 3vh;
+	padding-right: 3vw;	
+}
+
+nav ul li{
+	color: white;
+	justify-content: space-around;
+	display: inline;
+	margin-left: 1vw;
+	font-size: 1em;
+	font-weight: bold;
+	font-family: 'Inter';
+	font-style: normal;
+	list-style:none;
+	
+}
+
+nav ul li a{
+	text-decoration:none;
+	color: white;
+}
+
+div.logo{
+	width: 100vw;
+	height: 80vh;
+	max-height: 85%;
+    max-width: 100%;
+    object-fit: cover;
+	text-align: center;
+	margin-top: 5vh;
+	margin-bottom: 25vh;		
+}
+
+div.logo img{
+    height: 80vh;
+	margin-top: 10vh;
+	max-height: 90%;
+	max-width: 90%;
+}
+
+div.outdoor{
+	height: 50vh;
+	display: flex;
+	flex-direction: row;	
+	margin-bottom: 2vh;
+	text-align: center;
+}
+
+div.ads-txt{
+	width: 45vw;
+	text-align: center;
+}
+
+div.ads-txt p{
+	color: white;
+	Font-family: Playfair Display;
+	Font-style: SemiBold;
+	Font-size: 3em;
+	text-align: center;
+	margin-top: 10vh;
+}
+
+div.ads-img{
+	text-align: center;
+	height: 50vh;
+	width: 50vw;
+	object-fit: cover;
+
+}
+
+div.ads-img img{
+	height: 80%;
+    width: 80%;
+    object-fit: cover;
+}
+
+#outdoor-m{
+	
+}
+
+img.adidas{
+	margin-left: 65px;
+}
+
+div.button{
+	text-align: center;
+	margin-bottom: 5vh;
+}
+
+div.button input[type="button"]{
+	padding: 2vh 2vw;
+}
+
+#button{
+	Font-size: 1em;
+	margin-top: 6vh;
+	margin-bottom: 6vh;
+}
+
+div.sobre-titulo{
+	text-align: center;
+	margin-bottom: 10vh;
+}
+
+
+div.sobre-titulo p{
+	color: white;
+	Font-family: Playfair Display;
+	Font-style: SemiBold;
+	Font-size: 4em;
+}
+
+div.paragrafos{
+	width: 50vw;
+	margin-left: 1vw;
+}
+
+div.paragrafos p{
+	color:white;
+	Font-family: Inter;
+	Font-style: Regular;
+	Font-size: 2em;
+	text-align: justify;
+	margin-left: 10vw;
+	margin-right: 5vw;
+}
+
+div.slots{
+	display: flex;
+	flex-direction: row;	
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+div.slot-img{
+	width: 30vw;
+	margin-right: 10vw;
+}
+
+div.slot-img img{
+	height: 100%;
+    width: 100%;
+    object-fit: cover;
+	margin-right: 1vw;
+}
+
+section.depoimentos{
+	margin-left: 20vw;
+	margin-right: 20vw;
+}
+
+div.dep-titulo p{
+	text-align: center;
+	color: white;
+	Font-family: Playfair Display;
+    Font-style: SemiBold;
+    Font-size: 4em;	
+	margin-top: 15vh;
+}
+
+div.dep-subtitulo p{
+	color: white;
+	font-size: 1.2em;
+	Font-family: Playfair Display;
+    Font-style: SemiBold;
+	text-align: center;
+	margin-left: 8vw;
+	margin-right: 8vw;
+	margin-top: -5vh;
+}
+
+div.blocks{
+	background-color: #000000;
+	height: 80vh;
+	margin-top: 5vh;
+	display: flex;
+    flex-direction: row;
+	text-align: justify;
+}
+
+div.b-left{
+	width: 50vw;
+}
+
+div.b-right{
+	width: 30vw;
+}
+
+#b1{
+	height: 30vh;
+	display: flex;
+    flex-direction: row;
+	margin-bottom: 10vh;	
+}
+
+#b2{
+	height: 30vh;
+	display: flex;
+    flex-direction: row;
+}
+
+#b3{
+	height: 75vh;
+	width: 12.5vw;
+	margin-left: 2vw;
+}
+
+div.b-img{
+	height: 35vh;
+	width: 17.5vw;
+	
+}
+
+div.b-img img{
+	text-align: center;
+	object-fit: cover;
+	height: 260px;
+	width: 260px;
+	width: 100%;
+	height: 100%;
+}
+
+div.b-txt{
+	height: 35vh;
+	width: 22.5vw;
+	background-color: #3c3c3c;
+}
+
+div.b-txt p{
+	Font family: Inter;
+	Font style: Light;
+	Font size: 0.8em;
+	Align: Left;
+	Vertical align: Top;
+	color: white;
+}
+
+div.b-txt p.titulo{
+	Font family: Inter;
+	Font style: Semi Bold;
+	Font size: 2em;
+	Align: Left;
+	Vertical align: Top;
+	color: white;
+}
+
+p.titulo-r{
+	Font family: Inter;
+	Font style: Semi Bold;
+	Font size: 2em;
+	Align: Left;
+	Vertical align: Top;
+	color: white;
+	margin: 0;
+	padding-top: 10px;
+}
+
+div.b-txt-r{
+	height: 40vh;
+	width: 17.5vw;
+	Font family: Inter;
+	Font style: Semi Bold;
+	Font size: 2em;
+	Align: Left;
+	Vertical align: Top;
+	color: white;
+	background-color: #3c3c3c;	
+}
+
+section.contato{
+	margin-left: 20vw;
+	margin-right: 20vw;
+	margin-bottom: 5vh;
+}
+
+div.contato-titulo p{
+	text-align: center;
+    color: white;
+    Font-family: Playfair Display;
+    Font-style: SemiBold;
+    Font-size: 4em;
+}
+
+div.formulario{
+	text-align: left;
+	width: 40vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+#label-nome{
+	color: white;
+	text-align: left;
+	Font-size: 2em;
+}
+
+#nome{
+	border-color: transparent;
+	border-bottom-color: white;
+	width: 40vw;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+}
+
+#label-email{
+	color: white;
+	text-align: left;
+	Font-size: 2em;
+}
+
+#email{
+	border-color: transparent;
+	border-bottom-color: white;
+	width: 40vw;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+}
+
+#label-msg{
+	color: white;
+	text-align: left;
+	Font-size: 2em;
+}
+
+#msg{
+	border-color: transparent;
+	border-bottom-color: white;
+	width: 40vw;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+	color: white;
+	font-weight: 1.5em;
+}
+
+#enviar{
+	font-size: 1.5em;
+	Font-family: Inter;
+	Font-style: Bold;
+	padding: 1vh 2vw;
+}
+
+section.rodape{
+	margin-top: 15vh;
+}
+
+div.rodape-png{
+	text-align: center;
+}
+
+div.rodape-png img{
+	width: 70px;
+	height: 70px;
+	border-radius: 15px;
+	margin: 10px;
+}
+
+#git{ border-radius: 35px;}
+
+div.company p{
+	color: white;
+	text-align: center;
+}
+
+div.terms{
+	text-align: center;
+	margin-bottom: 5vh;
+}
+
+div.terms a{
+	text-decoration: none;
+	color: gray;
+	margin-left: 2vw;
+}
+
+@media (max-width: 1000px){
+	
+	@import url('https://rsms.me/inter/inter.css');
+
+body{
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-color: #000000;
+	font-family: 'Inter', sans-serif;
+}
+
+nav{
+	width: 100vw;
+	display: flex;
+	position: fixed;
+	background-color: black;
+	margin-top: -5vh;
+}
+
+nav p{
+	color: white;
+	margin-left: 3vh;
+	margin-top: 3vh;
+	font-size: 1em;
+	font-weight: bold;
+	font-family: 'Inter', sans-serif;
+}
+
+nav ul{
+	width: 70vw;
+	text-align: right;
+	margin-top: 3vh;
+	padding-right: 3vw;	
+}
+
+nav ul li{
+	color: white;
+	justify-content: space-around;
+	display: inline;
+	margin-left: 1vw;
+	font-size: 1em;
+	font-weight: bold;
+	font-family: 'Inter';
+	font-style: normal;
+	list-style:none;
+	
+}
+
+nav ul li a{
+	text-decoration:none;
+	color: white;
+}
+
+div.logo{
+	width: 100vw;
+	height: 80vh;
+	max-height: 85%;
+    max-width: 100%;
+    object-fit: cover;
+	text-align: center;
+	margin-top: 5vh;
+	margin-bottom: 25vh;		
+}
+
+div.logo img{
+    height: 80vh;
+	margin-top: 10vh;
+	max-height: 90%;
+	max-width: 90%;
+}
+
+div.outdoor{
+
+height: 75vh;
+display: flex;
+flex-direction: column;	
+margin-bottom: 2vh;
+justify-content: center;
+margin: 0 auto;
+}
+
+div.ads-txt{
+	height: 25vh;
+	width: 100vw;
+	text-align: center;	
+}
+
+div.ads-txt p{
+	color: white;
+	Font-family: Playfair Display;
+	Font-style: SemiBold;
+	Font-size: 3em;
+	text-align: center;
+}
+
+div.ads-img{
+	text-align: center;
+	height: 50vh;
+	width: 100vw;
+	object-fit: cover;
+	text-align: center;	
+}
+
+div.ads-img img{
+	height: 80%;
+    width: 80%;
+    object-fit: cover;
+}
+
+#ads-txt-m{
+	order: 0;
+}
+	
+#ads-img-m{
+	order: 1;
+}
+
+img.adidas{
+	margin-left: 65px;
+}
+
+div.button{
+	text-align: center;
+	margin-bottom: 5vh;
+}
+
+div.button input[type="button"]{
+	padding: 2vh 2vw;
+}
+
+#button{
+	Font-size: 1em;
+	margin-top: 6vh;
+	margin-bottom: 6vh;
+}
+
+div.sobre-titulo{
+	text-align: center;
+	margin-bottom: 10vh;
+}
+
+
+div.sobre-titulo p{
+	color: white;
+	Font-family: Playfair Display;
+	Font-style: SemiBold;
+	Font-size: 4em;
+}
+
+div.paragrafos{
+	width: 80vw;
+	margin-left: 1vw;
+	text-align: center;
+}
+
+div.paragrafos p{
+	color:white;
+	Font-family: Inter;
+	Font-style: Regular;
+	Font-size: 2em;
+	text-align: justify;
+	margin-left: 10vw;
+	margin-right: 5vw;
+}
+
+div.slots{
+display: flex;
+flex-direction: column;
+margin-left: 10vw;
+margin-right: 10vw;
+width: 80vw;
+justify-content: center;
+}
+
+div.slot-img{
+	width: 80vw;
+	margin-right: 10vw;
+	text-align: center;
+}
+
+div.slot-img img{
+	height: 50%;
+    width: 50%;
+    object-fit: cover;
+	margin-right: 1vw;
+}
+
+section.depoimentos{
+	margin-left: 10vw;
+	margin-right: 10vw;
+	height: 160vh;
+}
+
+div.dep-titulo p{
+	text-align: center;
+	color: white;
+	Font-family: Playfair Display;
+    Font-style: SemiBold;
+    Font-size: 4em;	
+	margin-top: 15vh;
+}
+
+div.dep-subtitulo p{
+	color: white;
+	font-size: 1.2em;
+	Font-family: Playfair Display;
+    Font-style: SemiBold;
+	text-align: center;
+	margin-left: 8vw;
+	margin-right: 8vw;
+	margin-top: -5vh;
+}
+
+div.blocks{
+background-color: #000000;
+height: 115vh;
+margin-top: 5vh;
+display: flex;	
+flex-direction: column;
+text-align: justify;
+}
+
+div.b-left{
+	width: 80vw;
+}
+
+div.b-right{
+	width: 80vw;
+	display: flex;
+	flex-direction: row;
+}
+
+#b1{
+height: 30vh;
+width: 80vw;
+display: flex;
+flex-direction: row;
+margin-bottom: 10vh;	
+}
+
+#b2{
+height: 30vh;
+width: 80vw;
+display: flex;
+flex-direction: row;
+margin-bottom: 10vh;
+}
+
+#b3{
+	height: 30vh;
+	width: 80vw;
+	display: flex;
+	margin-bottom: 10vh;
+}
+
+div.b-img{
+	height: 30vh;
+	width: 30vw;
+	
+}
+
+div.b-img img{
+	text-align: center;
+	object-fit: cover;
+	height: 260px;
+	width: 260px;
+	width: 100%;
+	height: 100%;
+}
+
+div.b-txt{
+	height: 30vh;
+	width: 50vw;
+	background-color: #3c3c3c;
+}
+
+div.b-txt p{
+	Font family: Inter;
+	Font style: Light;
+	Font size: 0.8em;
+	Align: Left;
+	Vertical align: Top;
+	color: white;
+}
+
+div.b-txt p.titulo{
+	Font family: Inter;
+	Font style: Semi Bold;
+	Font size: 2em;
+	Align: Left;
+	Vertical align: Top;
+	color: white;
+}
+
+p.titulo-r{
+	Font family: Inter;
+	Font style: Semi Bold;
+	Font size: 2em;
+	Align: Left;
+	Vertical align: Top;
+	color: white;
+	margin: 0;
+	padding-top: 10px;
+}
+
+div.b-txt-r{
+	height: 30vh;
+	width: 50vw;
+	Font family: Inter;
+	Font style: Semi Bold;
+	Font size: 2em;
+	Align: Left;
+	Vertical align: Top;
+	color: white;
+	background-color: #3c3c3c;	
+}
+
+section.contato{
+	margin-left: 20vw;
+	margin-right: 20vw;
+	margin-bottom: 5vh;
+}
+
+div.contato-titulo p{
+	text-align: center;
+    color: white;
+    Font-family: Playfair Display;
+    Font-style: SemiBold;
+    Font-size: 4em;
+}
+
+div.formulario{
+	text-align: left;
+	width: 40vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+#label-nome{
+	color: white;
+	text-align: left;
+	Font-size: 2em;
+}
+
+#nome{
+	border-color: transparent;
+	border-bottom-color: white;
+	width: 40vw;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+}
+
+#label-email{
+	color: white;
+	text-align: left;
+	Font-size: 2em;
+}
+
+#email{
+	border-color: transparent;
+	border-bottom-color: white;
+	width: 40vw;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+}
+
+#label-msg{
+	color: white;
+	text-align: left;
+	Font-size: 2em;
+}
+
+#msg{
+	border-color: transparent;
+	border-bottom-color: white;
+	width: 40vw;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+	color: white;
+	font-weight: 1.5em;
+}
+
+#enviar{
+	font-size: 1.5em;
+	Font-family: Inter;
+	Font-style: Bold;
+	padding: 1vh 2vw;
+}
+
+section.rodape{
+	margin-top: 15vh;
+}
+
+div.rodape-png{
+	text-align: center;
+}
+
+div.rodape-png img{
+	width: 50px;
+	height: 50px;
+	border-radius: 15px;
+	margin: 10px;
+}
+
+#git{ border-radius: 35px;}
+
+div.company p{
+	color: white;
+	text-align: center;
+}
+
+div.terms{
+	text-align: center;
+	margin-bottom: 5vh;
+}
+
+div.terms a{
+	text-decoration: none;
+	color: gray;
+	margin-left: 2vw;
+}
+}

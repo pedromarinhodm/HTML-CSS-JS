@@ -1,0 +1,44 @@
+body{
+	background-color: slategray;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	text-align: center;
+	
+}
+
+.titulo{
+	color: white;
+	Font-family: Playfair Display;
+	Font-style: SemiBold;
+	Font-size: 3em;
+}
+
+.subtitulo{
+	color: white;
+	Font-family: Playfair Display;
+	Font-style: SemiBold;
+	Font-size: 1.5em;
+}
+
+#box{
+	border-radius: 5px;
+}
+
+#bot{
+	border-radius: 5px;
+}
+
+.lista{
+	width: 20vw;
+	text-align: center;
+	margin-left: 20vw;
+	
+}
+
+ul{
+	
+}
+
+li{
+	
+}

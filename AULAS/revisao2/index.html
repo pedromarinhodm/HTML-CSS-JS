@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Videos</title>
+</head>
+<body>	
+	<div class="video">
+		<video width="500" height="300" controls> <!-- controls ou autoplay, muted -->
+			<source id="video" src="src/video.mp4" type="video/mp4">
+		</video>	
+	</div>	
+	
+	<input id="but" type="button" value="Iniciar/Pausar" onclick="playPause()">
+	
+<script>
+	
+	let meuVideo = document.querySelector("video")
+		
+		function playPause(){	
+		
+			if (meuVideo.paused){
+			meuVideo.play()
+			}
+			else {
+				meuVideo.pause()
+			}
+		}
+	
+</script>	
+</body>
+</html>	

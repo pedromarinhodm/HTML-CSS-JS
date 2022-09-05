@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz@1,6..72&family=Scheherazade+New&family=Tinos&display=swap');
+
+li a{
+text-decoration:none;
+color:black;
+padding:16px;
+
+}
+
+li{
+	list-style:none;
+	display:inline;
+	
+	
+}
+ul{
+	margin:0;
+	padding:15px;
+	background-color:gray;
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Newsreader', serif;
+	
+}
+li a:hover:not(.active){
+	background-color:green;
+}
+
+.active{
+	background-color:green;
+}
+div.conteudo{
+	min-height:500px;
+	background-color:#111;
+	padding:10px;
+	color:#fff;
+}
+
+div.conteudo-img{
+	background-image:url('../img/gif.gif');
+	background-attachment:fixed;
+	display:flex;
+	justify-content:center;
+
+}
+div.conteudo h1{
+	text-align:center;
+	/*text-transform:uppercase;*/
+	font-size:60px;
+	text-shadow:3px 3px 5px #2e8b57;
+	/*animation: animate 3s linear infinite;*/
+	
+}
+.texto{
+	text-align:justify;
+	text-indent:50px;
+	letter-spacing:5px;
+	line-height:2;
+	margin-left:100px;
+	margin-right:100px;
+	
+}
+@keyframes animate{
+	0%{opacity:0.9;}
+	50%{ opacity:0.1;}
+	100%{opacity:0.9;}
+}
+.menu-Login{
+	float:right;
+}
+div.card{
+	background-color:#fff;
+	min-height:100px;
+	margin-top:20px;
+	min-width:20%;
+	margin-top: 20px;
+	margin-left:20px;
+	margin-bottom: 20px;
+	min-width: 20%;
+	min-height: 100px;		
+}
+div.card1{
+	height: 60%;
+	background-color: grey;
+	
+}
+div.card1 img{
+	height: 100%;
+	max-width: 100%; 
+	min-width: 100%;
+	min-height: 100%;
+}
+
+div.card2{
+	height: 40%;
+	background-color: green;
+	margin-top: -15px;
+	padding-top: 30px;
+}
+div.card2 p{	
+	text-align: center;
+	padding: 0px;
+	
+}
+
+div.card input[type="button"]{
+	margin-left: 150px;
+	
+	
+}
+div.rodape{
+	min-height:150px;
+	max-height:150px;
+	background-color:#111;
+	padding:10px;
+	color:#fff;
+	display: flex;
+	margin: 0px;
+}
+
+div.rodape a{
+	text-decoration: none;
+}
+
+div.rodape img{
+	height: 30px;
+	width: 50px;
+}
+
+div.center{
+	width:33.33%;
+	margin: 20px;
+	text-align: center;
+	
+}
+
+div.center img{
+	
+}
+
+div.right{
+	text-align: right;
+	width:33.33%;
+	margin: 20px;
+}
+
+div.left{
+	text-align: left;
+	width:33.33%;
+	margin: 20px;
+}

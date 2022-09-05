@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Revisão | Atividade </title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="head">
+		<p class="titulo">Lista Dinâmica</p>
+		<p class="subtitulo">Insira um novo item:</p>
+	</div>
+	<div class="inputs">
+		<input id="box" type="text">
+		<input id="bot" type="button" value="Add" onclick="addItem()">
+	</div>
+	<div class="lista">
+		<ul id="lista">
+			
+		</ul>
+	</div>
+
+<script>
+	function addItem(){
+		
+		let box = document.getElementById("box").value;
+		console.log(box)
+		
+		if(box != "" && box.length > 3){
+			let retorno = document.getElementById("box").value; 
+			console.log(retorno)
+			let lista = document.getElementById("lista");
+			console.log(lista)
+		  //variavel.funçãoJS +=(add) =(substituir) "  "(trecho html)
+			lista.innerHTML += "<li>" + retorno + "</li>";
+			document.getElementById("box").value = "" //limpando campo do input
+		}else{
+			alert("insira um valor existente")
+		}
+	}
+	
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #ffebcd;
+}
+h1{
+	font-family: 'Arial';
+	text-align: center;
+	color: #808080;
+}
+.container{
+	display: flex;
+	font-family: 'Helvetica';
+	justify-content: center;
+	}
+.item{
+	color: #fff;
+	border: solid 2px #000;
+	height: 50vh; /* vh altura em % e vw largura */
+	width: 20vw;
+	text-align: center;
+}
+#item1{
+	background-color: red;
+}
+#item2{
+	background-color: green;
+}
+#item3{
+	background-color: blue;
+}
+		/* condição */
+@media (max-width: 750px) { /* @media - chamar propriedade*/
+	
+	.container{
+		flex-direction: column; /* alterando vertical diagonal do container*/
+	}
+	.item{
+		width: 100%;
+	}
+	#item1{
+		background-color: black;
+	}
+}
+
+@media (min-width: 751px) and (max-width: 1000px){
+	
+	#item1{
+		background-color: yellow;
+	}
+	#item2{
+		background-color: yellow;
+	}
+	#item3{
+		background-color: yellow;
+	}
+}

@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap" rel="stylesheet');
+
+body{
+	
+	font-family: 'Tinos', serif;
+	background-color: grey;
+	color: white;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: justify;
+
+}
+
+img{
+	
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 25%;
+	border: solid 5px white;
+	border-radius: 10px;
+	max-width: 100%;
+	
+}
+
+p{
+
+	text-indent: 50px;
+	
+}
+
+

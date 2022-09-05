@@ -1,0 +1,13 @@
+body{
+	margin-left: 40vw;
+	margin-top: 30vh;
+	background-color: slategray;
+}
+
+.video{
+	width: 20vw;
+}
+
+but{
+	width: 5vw;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="vierport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Replicando Layout</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/d7efeede46.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header> <!-- div específica para cabeçalho -->
+		<nav> <!-- cria barra de navegação -->
+			<i id="lupa" class="fa-solid fa-magnifying-glass"></i>
+			<input type="text" value="www.clinicaveterinaria.com">		
+			<i id="headphone" class="fa-solid fa-headphones"></i>
+			<img src="img/img.png">
+			<span> Linguas: </span> <!-- tag coringa - não cria container - sobrepõe/transpassa itens - nn altera o display -->
+		</nav> 	
+		
+		<section class="info"> 							<!--  cria sessões(container) -->
+	<!---->	<div class="endereco">
+				<div class="img-endereco">
+					<img src="img/mapa.png">
+				</div>
+				<div class="text-endereco">
+					<p>Av. Antônio Barros Lins, 200</p>
+					<p>Boca da Mata - AL</p>
+					<p>57680-000</p>
+				</div>
+			</div>	
+			<div class="barra-lateral"></div>
+	<!---->	<div class="horario">
+				<p>HORÁRIOS DE FUNCIONAMENTO:</p>
+				<p>Seg-Sex: 09h-12h | 14h-17h</p>
+				<p>Sábado: 09h-12h</p>
+			</div>
+			<div class="barra-lateral"></div>
+	<!---->	<div classe="contatos">
+				<div id="text-contatos">
+					<p>CONTATOS</p>			
+					<div class="redes">									
+						<img src="img/whatsapp.png">
+						<img src="img/instagram.png">
+						<img src="img/facebook.png">					
+					</div>	
+					<div id="qr">	
+						<img src="img/qr-code.png">				
+					</div>
+				</div>				
+			</div>	
+		</section>
+
+		<section class="menu">
+			<div class="item-menu"></div>
+			<div class="item-menu"></div>
+			<div class="item-menu"></div>
+			<div class="item-menu"></div>
+			<div class="item-menu"></div>
+			<div class="item-menu"></div>
+			<div class="item-menu"></div>
+			<div class="item-menu"></div>
+		</section>
+		
+	</header>
+</body>
+</html>

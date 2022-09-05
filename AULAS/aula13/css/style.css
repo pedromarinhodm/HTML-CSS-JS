@@ -1,0 +1,150 @@
+body{
+	background-image: url('../img/img.jfif'); /* img como fundo */
+	background-size: cover; /* pra que a img amplie, não se replique, e ocupe toda a tela */
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	padding-left: 10vw;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	height: 6vh;
+	background-color: #783c00;	
+}
+
+nav input{
+	width: 30vw;
+	margin-top: 1vh;
+	padding-top: 1vh;
+	padding-left: 4vw;
+	padding-right: 10vw;
+	padding-bottom: 1vh;
+	border-radius: 20px;
+	color: #783c00;
+	background-color: #f3f3f3;
+	font-weight: 700;
+}
+
+#lupa{
+	position: fixed; /* transpassar/sobrepor elemento */
+	margin-top: 2.25vh;
+	margin-left: 1.5vw;
+}
+
+#headphone{
+	float: right; /* desloca o elemento para a posição indicada */
+	color: white;
+	margin-top: 2vh;
+	margin-right: 2vw;
+}
+
+nav img{
+	float: right;
+	margin-right: 0.9vw;
+	margin-top: 1.2vh;
+}
+
+nav span{
+	color: white;
+	text-transform: uppercase;
+	float: right;
+	margin-top: 1.85vh;
+	margin-right: 0.9vw;
+}
+
+section.info{
+	display: flex;
+	margin-top: 0.5vh;
+	border-top: solid 4px #783c00;
+	border-bottom: solid 10px #783c00;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	justify-content: space-between;
+}
+
+section.info div.endereco{
+	width: 33vw;
+	display: flex;	
+}
+
+section.info div.endereco p{
+	color: #783c00;
+	text-align: center;
+}
+
+section.info div.text-endereco{
+	padding-top: 2vh;			/* top-cima - bottom-baixo */	
+	padding-bottom: 1vh;
+	
+}
+
+
+
+section.info div.barra-lateral{
+	width: 0.3vw;
+	background-color: #783c00;
+	border-radius: 5px;
+	transform: rotate(15deg);
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+
+
+
+.horario{
+	padding-top: 7vh;			/* top-cima - bottom-baixo */	
+	padding-bottom: 1vh;
+	width: 33vw;
+}
+
+.horario p{
+	color: #783c00;
+	text-align: center;
+}
+
+#redes{
+	display: flex;
+}
+
+
+section.info div.horario p{  /* <p> automaticamente recebe margem - todo container recebe margem*/
+	margin-top: -15px;
+}
+
+
+
+
+.contatos{
+	width: 33vw;
+}
+
+#text-contatos{
+	width: 33vw;
+	display: flex;
+	margin-left: 10px;
+}
+
+#text-contatos img{
+	margin-left: 20px;
+}
+
+#text-contatos qr{
+	margin-left: 20px;
+}
+
+.redes{
+	width: 32vw;
+	display: flex;	
+	margin-left: 10px;
+}
+
+
+
+
+section.menu{
+	display: flex;
+	justify-content: space-between; /* alinhar os itens - margens iguais - espaçamento igual dividido no display da tela*/
+}

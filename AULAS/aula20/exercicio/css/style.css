@@ -1,0 +1,41 @@
+body{
+	background-color: slategray;
+}
+
+div.form{
+	margin: 200px;
+	padding: 100px;
+}
+
+#form{
+	text-align: center;
+}
+
+label{
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+input{
+	margin-bottom: 20px;
+	text-align: left;
+}
+#username{
+	
+}
+
+#idade{
+	
+}
+
+#email{
+	
+}
+
+#cep{
+	
+}
+
+#botaozin{
+	
+}
